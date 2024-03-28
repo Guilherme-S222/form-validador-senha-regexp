@@ -1,0 +1,103 @@
+/* cores
+    font #202020
+    btn #50C878
+    bg #FAF9F7
+*/
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FAF9F1;
+}
+
+h1 {
+    margin: 0 0 1.5rem;
+    text-align: center;
+    color: #202020;
+}
+
+section {
+    margin: 1.5rem auto;
+    max-width: 25rem;
+    padding: 2rem;
+    background-color: #FAF9F7;
+    border-radius: .5rem;
+    box-shadow: 0 8px 24px -16px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1.25rem;
+    margin-bottom: .5rem;
+    color: #202020;
+    font-weight: 600;
+}
+
+input {
+    border: 1rem;
+    border-radius: .25rem;
+    font-size: 1rem;
+    padding: .5rem;
+    background-color: #e6e3e0;
+}
+
+span {
+    color: #F64348;
+    font-size: .80rem;
+    margin: .25rem;
+}
+
+button {
+    background-color: #50C878;
+    border: 0;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    padding: .5rem 0;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+
+#togglePassword {
+    background-color: #FAF9F7;
+    align-items: center;
+    font-size: 0.9rem;
+    max-width: 3rem;
+    margin-top: 0.3rem;
+}
+
+#togglePassword:hover {
+    cursor: pointer;
+    filter: none;
+}
+
+img {
+    height: 1.3rem;
+}
+
+.error {
+    border: 1px solid #f64348;
+}
+
+.success {
+    border: 1px solid #43f67f;
+}
+
+#successMessage {
+    display: none;
+    color: #202020;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
