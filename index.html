@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <script src="./src/index.js" type="module" defer></script>
+</head>
+
+<body>
+    <section>
+        <h1>Registre-se para usar o app!</h1>
+        <form>
+
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" autocomplete="off">
+            <span id="name-error"></span>
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" autocomplete="off">
+            <span id="email-error"></span>
+
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" autocomplete="off">
+            <button type="button" id="togglePassword">
+                <img src="./img/open.png" id="passwordImg" alt="Show Password">
+            </button>
+            <span id="password-error"></span>
+
+            <button type="submit">Registrar</button>
+
+        </form>
+        <div id="successMessage" class="animate__animated animate__backInLeft">Registro realizado
+            com sucesso!</div>
+    </section>
+</body>
+
+</html>

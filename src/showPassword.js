@@ -2,8 +2,8 @@ const showPassword = () => {
     const btnShowPassword = document.getElementById('togglePassword');
     const passwordInput = document.getElementById('password');
     const passwordImg = document.getElementById('passwordImg');
-    const closedEye = '../img/closed.png';
-    const openEye = '../img/open.png';
+    const closedEye = './img/closed.png';
+    const openEye = './img/open.png';
 
     let senhaVisivel = false;
 
