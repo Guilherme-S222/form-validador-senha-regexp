@@ -5,7 +5,7 @@ Este é um simples formulário de registro de usuário desenvolvido em HTML, CSS
 ## Funcionalidades
 
 - Permite aos usuários se registrarem fornecendo seu nome, email e senha.
-- Valida os campos de entrada antes de enviar o formulário.
+- Valida os campos de entrada antes de enviar o formulário usando expressões regulares (RegExp).
 - Fornece feedback visual para os usuários sobre o status de validação dos campos.
 - Permite aos usuários visualizarem a senha enquanto digitam.
 
@@ -26,7 +26,7 @@ Nenhum pré-requisito é necessário para usar este projeto.
 
 ## Autor
 
-Este projeto foi desenvolvido por Guilherme-S222.
+Este projeto foi desenvolvido por [Seu Nome].
 
 ## Contribuição
 
