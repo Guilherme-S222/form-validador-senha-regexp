@@ -26,7 +26,7 @@ Nenhum pré-requisito é necessário para usar este projeto.
 
 ## Autor
 
-Este projeto foi desenvolvido por [Seu Nome].
+Este projeto foi desenvolvido por Guilherme-S222.
 
 ## Contribuição
 
